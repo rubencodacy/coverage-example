@@ -15,9 +15,6 @@ public class Math2 {
         if (y == magicNumber) {
             return y - x;
         } else {
-            System.out.println("hey");
-            System.out.println("hey");
-            System.out.println("hey");
             return x + y;
         }
     }
