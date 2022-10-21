@@ -12,10 +12,15 @@ public class MathTest {
         assertEquals(7, math.magicAdd(3, 4));
     }
 
+    @Test
+    public void shouldOla() {
+        Math math = new Math(4);
+        assertEquals(true, math.ola());
+    }
     // Uncomment this to have 100% coverage
     // @Test
     // public void shouldSubtractIfMagicNumber() {
-    //     Math math = new Math(4);
-    //     assertEquals(1, math.magicAdd(3, 4));
+    // Math math = new Math(4);
+    // assertEquals(1, math.magicAdd(3, 4));
     // }
 }
