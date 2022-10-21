@@ -12,6 +12,12 @@ public class Math2Test {
         assertEquals(7, math.magicAdd(3, 4));
     }
 
+    @Test
+    public void shouldOla() {
+        Math2 math = new Math2(4);
+        assertEquals(true, math.ola());
+    }
+
     // Uncomment this to have 100% coverage
     @Test
     public void shouldSubtractIfMagicNumber() {
