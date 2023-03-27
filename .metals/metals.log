@@ -1,0 +1,42 @@
+2023.03.27 14:44:39 INFO  Started: Metals version 0.11.11 in workspace '/Users/rubensantos/Codacy/Repos/rubensantos/coverage-example' for client Visual Studio Code 1.76.2.[0m
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/rubensantos/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.27 14:44:39 INFO  time: initialize in 0.44s[0m
+2023.03.27 14:44:39 WARN  Build server is not auto-connectable.[0m
+2023.03.27 14:44:39 WARN  no build target for: /Users/rubensantos/Codacy/Repos/rubensantos/coverage-example/src/test/java/com/codacy/utils/MathTest.java[0m
+Mar 27, 2023 2:44:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2023.03.27 15:14:56 WARN  no build target for: /Users/rubensantos/Codacy/Repos/rubensantos/coverage-example/src/test/java/com/codacy/utils/MathTest.java[0m
+2023.03.27 15:14:56 WARN  Running javac-semanticdb failed for file:///Users/rubensantos/Codacy/Repos/rubensantos/coverage-example/src/test/java/com/codacy/utils/MathTest.java. Output:
+/Users/rubensantos/Codacy/Repos/rubensantos/coverage-example/src/test/java/com/codacy/utils/MathTest.java:15: error: as of release 8, 'this' is allowed as the parameter name for the receiver type only, which has to be the first parameter
+    Uncomment this to have 100% coverage
+              ^
+/Users/rubensantos/Codacy/Repos/rubensantos/coverage-example/src/test/java/com/codacy/utils/MathTest.java:15: error: ';' expected
+    Uncomment this to have 100% coverage
+                  ^
+/Users/rubensantos/Codacy/Repos/rubensantos/coverage-example/src/test/java/com/codacy/utils/MathTest.java:15: error: ';' expected
+    Uncomment this to have 100% coverage
+                          ^
+/Users/rubensantos/Codacy/Repos/rubensantos/coverage-example/src/test/java/com/codacy/utils/MathTest.java:16: error: illegal start of type
+    @Test
+    ^
+/Users/rubensantos/Codacy/Repos/rubensantos/coverage-example/src/test/java/com/codacy/utils/MathTest.java:16: error: <identifier> expected
+    @Test
+         ^
+/Users/rubensantos/Codacy/Repos/rubensantos/coverage-example/src/test/java/com/codacy/utils/MathTest.java:17: error: ';' expected
+    public void shouldSubtractIfMagicNumber() {
+          ^
+/Users/rubensantos/Codacy/Repos/rubensantos/coverage-example/src/test/java/com/codacy/utils/MathTest.java:17: error: invalid method declaration; return type required
+    public void shouldSubtractIfMagicNumber() {
+                ^
+7 errors[0m
+2023.03.27 15:14:56 WARN  no build target for: /Users/rubensantos/Codacy/Repos/rubensantos/coverage-example/src/main/java/com/codacy/utils/Math.java[0m
+2023.03.27 15:14:58 WARN  no build target for: /Users/rubensantos/Codacy/Repos/rubensantos/coverage-example/src/main/java/com/codacy/utils/Math.java[0m
+2023.03.27 15:14:59 WARN  no build target for: /Users/rubensantos/Codacy/Repos/rubensantos/coverage-example/src/main/java/com/codacy/utils/Math2.java[0m
+2023.03.27 15:15:02 WARN  no build target for: /Users/rubensantos/Codacy/Repos/rubensantos/coverage-example/src/main/java/com/codacy/utils/Math2.java[0m
+2023.03.27 15:18:36 WARN  no build target for: /Users/rubensantos/Codacy/Repos/rubensantos/coverage-example/src/test/java/com/codacy/utils/MathTest.java[0m
+2023.03.27 15:18:36 WARN  no build target for: /Users/rubensantos/Codacy/Repos/rubensantos/coverage-example/src/test/java/com/codacy/utils/MathTest.java[0m
